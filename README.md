@@ -16,6 +16,8 @@ C++ and Rust while using less memory.
 [Samples](samples/README.md) · [Benchmarks](bench/results.md) ·
 [Standard library](docs/stdlib.md)
 
+[Language server written in Goose](tools/lsp/README.md) · [Nix packages](docs/nix.md)
+
 Goose has syntax familiar to C and Rust programmers, but **there is no heap**.
 Every dynamic value lives inline on data stacks managed by the compiler.
 Growth advances a pointer, and memory is freed when its scope ends. The
